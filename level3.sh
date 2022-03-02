@@ -12,5 +12,5 @@ tput setab 7;tput setaf 1;echo "The password for level4: $PASS4";tput sgr0
 
 echo "$PASS4" > ./level_pass/level4
 
-#chmod u+x ./level2.sh
-#./level2.sh
+chmod u+x ./level4.sh
+./level4.sh
