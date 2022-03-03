@@ -10,9 +10,11 @@ echo "$PASS" > ./input.txt
 
 PASS5=$(python3 ./python-script.py; cat ./pass5)
 
+rm input.txt pass5
+
 tput setab 7;tput setaf 1;echo "The password for level5: $PASS5";tput sgr0
 
 echo "$PASS5" > ./level_pass/level5
 
-#chmod u+x ./level2.sh
-#./level2.sh
+chmod u+x ./level5.sh
+./level5.sh
